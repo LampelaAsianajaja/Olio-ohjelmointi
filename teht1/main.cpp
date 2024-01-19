@@ -33,6 +33,7 @@ int game(int maxnum){
     }
     else if (quess>arvo){
         cout <<"vaarin arvo on pienempi"<< endl;
+        mount+=1;
     }
       }
     maxnum+=mount;
