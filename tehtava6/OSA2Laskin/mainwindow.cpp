@@ -37,7 +37,7 @@ MainWindow::MainWindow(QWidget *parent)
   //  connect(ui->BTNenter,SIGNAL(clicked()),this,SLOT(numberClikcedHandler()));
   //  connect(ui->BTN0, SIGNAL(clicked()), this, SLOT(numberClikcedHandler()));
   //  connect(ui->BTNone, SIGNAL(clicked()), this, SLOT(numberClikcedHandler()));
-  //  connect(ui->BTN2, &QPushButton::clicked, this, &MainWindow::numberClikcedHandler); // Corrected syntax for Qt5 and above
+  //  connect(ui->BTN2, &QPushButton::clicked, this, &MainWindow::numberClikcedHandler);
  //   connect(ui->BTNenter, SIGNAL(clicked()), this, SLOT(numberClikcedHandler()));
     state=0;
 }
