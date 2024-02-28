@@ -65,8 +65,8 @@ void MainWindow::ClickHandler()
      // qDebug() << "Button name: " << name;
     if (name=="Btn120" && gameTimer==0){
 
-    player1Time=12;
-    player2Time=12;
+    player1Time=120;
+    player2Time=120;
      gameTimer=0;
     ui->PbarPL1->setRange(0,player1Time);
     ui->PbarPL2->setRange(0,player2Time);
@@ -76,8 +76,8 @@ void MainWindow::ClickHandler()
    }
       if (name=="Btn5"){
 
-     player1Time=100;
-     player2Time=100;
+     player1Time=300;
+     player2Time=300;
      gameTimer=0;
      qDebug() << "300 sekunttii " << gameTimer;
      ui->PbarPL1->setRange(0,player1Time);
